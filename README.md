@@ -1,6 +1,7 @@
 # duckdb-extensions
 
-A signed DuckDB 2.0 extension repository: extensions duckstack needs that have no DuckDB 2.0 build on community yet.
+A signed DuckDB 2.0 extension repository: the builds duckstack boots, where community has no DuckDB 2.0 build
+or serves an older one.
 Each file is signed with this publisher key (fingerprint `sha256:451b1e602206b93df6d1f6377fdebbb0d2d257b4bdc7dee2dbee8085427a4b8f`).
 
 ```sql
@@ -15,5 +16,6 @@ LOAD hostfs;
 | extension | source | license |
 |---|---|---|
 | hostfs | [gropaul/hostFS](https://github.com/gropaul/hostFS) at `29017b2`, built for DuckDB 2.0.0 | MIT, see `LICENSE-hostfs` |
+| quackapi | [asubbarao/quackapi](https://github.com/asubbarao/quackapi) at `2b2f1d9` (has `quackapi_selfdispatch`; community serves the older `afc31ea` for 2.0) | the quackapi repository's license |
 
 Platforms: `osx_arm64`.
