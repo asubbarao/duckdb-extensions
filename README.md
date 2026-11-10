@@ -17,5 +17,6 @@ LOAD hostfs;
 |---|---|---|
 | hostfs | [gropaul/hostFS](https://github.com/gropaul/hostFS) at `29017b2`, built for DuckDB 2.0.0 | MIT, see `LICENSE-hostfs` |
 | quackapi | [asubbarao/quackapi](https://github.com/asubbarao/quackapi) at `2b2f1d9` (has `quackapi_selfdispatch`; community serves the older `afc31ea` for 2.0) | the quackapi repository's license |
+| toml | [asubbarao/duckdb-toml](https://github.com/asubbarao/duckdb-toml/tree/duckdb-2.0-read-toml) at `a2cac97`: [vergenzt/duckdb-toml](https://github.com/vergenzt/duckdb-toml) `263bc5a` built for DuckDB 2.0.0, plus `read_toml(path or glob)` | MIT, see `LICENSE-toml` |
 
 Platforms: `osx_arm64`.
