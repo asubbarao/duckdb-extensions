@@ -15,7 +15,7 @@ LOAD hostfs;
 
 | extension | source | license |
 |---|---|---|
-| hostfs | osx_arm64: [gropaul/hostFS](https://github.com/gropaul/hostFS) at `29017b2` with a local 2.0 patch. linux_amd64: [asubbarao/hostFS](https://github.com/asubbarao/hostFS/tree/duckdb-2.0) at `928fd78`, the same release ported to the DuckDB 2.0 API | MIT, see `LICENSE-hostfs` |
+| hostfs | [asubbarao/hostFS](https://github.com/asubbarao/hostFS/tree/duckdb-2.0) at `c60bbc1`: [gropaul/hostFS](https://github.com/gropaul/hostFS) `29017b2` ported to the DuckDB 2.0 API, with its bundled ghc::filesystem retrying `opendir`/`readdir`/`read` only on a failed EINTR (as upstream ghc now does) | MIT, see `LICENSE-hostfs` |
 | quackapi | [asubbarao/quackapi](https://github.com/asubbarao/quackapi) at `2b2f1d9` (has `quackapi_selfdispatch`; community serves the older `afc31ea` for 2.0) | the quackapi repository's license |
 | toml | [asubbarao/duckdb-toml](https://github.com/asubbarao/duckdb-toml/tree/duckdb-2.0-read-toml) at `a2cac97`: [vergenzt/duckdb-toml](https://github.com/vergenzt/duckdb-toml) `263bc5a` built for DuckDB 2.0.0, plus `read_toml(path or glob)` | MIT, see `LICENSE-toml` |
 
