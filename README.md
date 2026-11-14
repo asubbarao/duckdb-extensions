@@ -16,7 +16,7 @@ LOAD hostfs;
 | extension | source | license |
 |---|---|---|
 | hostfs | [asubbarao/hostFS](https://github.com/asubbarao/hostFS/tree/duckdb-2.0) at `c60bbc1`: [gropaul/hostFS](https://github.com/gropaul/hostFS) `29017b2` ported to the DuckDB 2.0 API, with its bundled ghc::filesystem retrying `opendir`/`readdir`/`read` only on a failed EINTR (as upstream ghc now does) | MIT, see `LICENSE-hostfs` |
-| quackapi | [asubbarao/quackapi](https://github.com/asubbarao/quackapi) at `2b2f1d9` (has `quackapi_selfdispatch`; community serves the older `afc31ea` for 2.0) | the quackapi repository's license |
+| quackapi | [asubbarao/quackapi](https://github.com/asubbarao/quackapi) Mac `27c17de` (native statement/submission timing and errors); Linux remains `2b2f1d9`. Both include `quackapi_selfdispatch`; community serves older `afc31ea` for 2.0 | the quackapi repository's license |
 | sitting_duck | [teaguesterling/sitting_duck](https://github.com/teaguesterling/sitting_duck) `67e6381` plus commit `caaf3fc`, which adds a `tsx` language parsed with tree-sitter-typescript's tsx grammar (`.tsx` was parsed with the typescript grammar, so JSX came out as ERROR nodes). The commit is not yet published or proposed upstream | Apache-2.0, see `LICENSE-sitting_duck` and `NOTICE-sitting_duck` |
 
 Platforms: `osx_arm64` (built on the Mac) and `linux_amd64` (built by each source repository's extension-ci-tools workflow, then
