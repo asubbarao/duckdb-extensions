@@ -20,4 +20,4 @@ LOAD hostfs;
 | sitting_duck | [teaguesterling/sitting_duck](https://github.com/teaguesterling/sitting_duck) `67e6381` plus commit `caaf3fc`, which adds a `tsx` language parsed with tree-sitter-typescript's tsx grammar (`.tsx` was parsed with the typescript grammar, so JSX came out as ERROR nodes). The commit is not yet published or proposed upstream | Apache-2.0, see `LICENSE-sitting_duck` and `NOTICE-sitting_duck` |
 
 Platforms: `osx_arm64` (built on the Mac) and `linux_amd64` (built by each source repository's extension-ci-tools workflow, then
-signed here), so duckstack's boot check runs on Linux. sitting_duck is `osx_arm64` only for now.
+signed here), so duckstack's boot check runs on Linux. sitting_duck is built for `osx_arm64` and `linux_amd64` from the same source revision and DuckDB v2.0.0.
