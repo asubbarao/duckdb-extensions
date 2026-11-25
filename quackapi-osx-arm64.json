@@ -1,4 +1,11 @@
 [
-	{"extension":"quackapi","duckdb_version":"v2.0.0","platform":"osx_arm64","source_repository":"https://github.com/asubbarao/quackapi","source_commit":"a694174cd940138ebcb3ad894b70456f97d75639","artifact_sha256":"acea957b94e9d7df36fbd74c26a9a01e7a65fa25d91a157e0fe271641dd21c5e","gzip_sha256":"d4398a4aa4c47bc21d89d5d5bf2b02e17777500e523a8a8261438ac2b20a0ee0"}
+  {
+    "extension": "quackapi",
+    "duckdb_version": "v2.0.0",
+    "platform": "osx_arm64",
+    "source_repository": "https://github.com/asubbarao/quackapi",
+    "source_commit": "c0260c284fdd83c057c051e1490e82c0d0bcba19",
+    "artifact_sha256": "9264978ae68b1a224a08aa3c01df70d2450cbdac9e69a2f61977e2fb911b69c4",
+    "gzip_sha256": "d4260fa81031d21e7bfe41b94f288e2e45773373e65691e73d528a1026f7bccf"
+  }
 ]
-
